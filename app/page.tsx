@@ -2,11 +2,10 @@
 
 import { useEffect, useState } from 'react';
 
-const base = 'https://raw.githubusercontent.com/gabrielareque17-lab/ricksonlinsassessoria/main';
-const logoNav = `${base}/assets/logo-emblem-nav.png`;
-const logoFooter = `${base}/assets/logo-emblem-footer.png`;
-const heroImage = `${base}/uploads/pasted-1785871236024-0.png`;
-const aboutImage = `${base}/uploads/pasted-1785871179341-0.png`;
+const logoNav = '/assets/logo-emblem-nav.png';
+const logoFooter = '/assets/logo-emblem-footer.png';
+const heroImage = '/uploads/pasted-1785871236024-0.png';
+const aboutImage = '/uploads/pasted-1785871179341-0.png';
 const whatsapp = 'https://wa.me/5592993763017';
 
 const services = [
